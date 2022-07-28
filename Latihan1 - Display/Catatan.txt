@@ -1,0 +1,12 @@
+ada beberapa macam element display yang dapat di atur / tidak dapat di atur
+-yang dapat diatur disebut dengan Inline-block
+-dan yang tidak dapat diatur disebut dengan inline
+-Block adalah display yang akan mengikuti atribute parent
+-None adalah element display yang menghilangkan element.
+
+pada suatu kasus kita tidak akan dapat mengatur jika
+element itu secara default didefinisikan sebagai Inline. maka dalam kasus ini kita harus mendeklarasikan element tersebut agar menjadi Inline-block dengan cara pada css kita dapat menambahkan attribute baru yang bernama 
+display: inline-block;
+
+
+display: inline-block; / inline; / block; / none;

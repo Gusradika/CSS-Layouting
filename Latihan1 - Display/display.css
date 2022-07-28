@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.helloworld {
+    font-size:60px;
+}
+
+.copyright {
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+/* Division */
+
+.navigasi {
+    background-color: rgb(204, 204, 204);
+}
+
+.navigasi li {
+    display: inline;
+}
+
+.main {
+    background-color: greenyellow;
+    width: 600px;
+}
+
+.main h2 {
+    background-color: aqua;
+}
+
+.main span {
+    background-color: cyan;
+}
