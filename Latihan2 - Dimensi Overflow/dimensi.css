@@ -1,0 +1,17 @@
+div.satu {
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+}
+
+div.dua {
+    width: 120%;
+    background-color: aqua;
+}
+
+div.tiga {
+    width :200px;
+    height: 100px;
+    background-color: yellow;
+    overflow : auto;
+}
