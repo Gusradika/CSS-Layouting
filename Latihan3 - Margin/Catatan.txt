@@ -1,0 +1,11 @@
+Margin-top
+Margin-bottom
+margin-right
+margin-left
+
+Untuk margin vertikal jika value margin di tambahkan maka 
+tidak akan bertambah. tetapi untuk yg horizontal maka marginnya
+akan ter-akumulasi
+
+Key : Mainkan Display:inline / Inline-block / Block(default)
+untuk mendapatkan posisi yang sempurna

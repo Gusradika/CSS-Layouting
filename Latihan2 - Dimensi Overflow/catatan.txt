@@ -1,0 +1,20 @@
+Dimensi & Overflow
+
+Dimensi adalah CSS yang menentukan Height dan Width pada suatu
+element.
+
+Overflow adalah fungsi CSS yang membuat hal yang over Dimensi
+menjadi lebih interaktif contoh
+
+saya memiliki kotak div dengan lebar dan tinggi 100px
+namun dalam kotak itu saya masukan Text yang lebih banyak
+ketimbang 100px itu (Oversized) maka secara default
+Overflow yang digunakan adalah Visible atau tampil tapi melebihi kotak
+
+ada 4 Fungsi Overflow
+
+1. Visible (Default) : Memperlihatkan walaupun lebih dari kotak
+2. Auto : Fitur Scroll di dalam kotak. jika melebihi kotak maka akan muncul Scroll
+          jika tidak melebihi maka tidak akan muncul Scroll.
+3. Hidden : Jika melebihi kotak Maka yang melebihi kotak akan di sembunyikan
+4. Scroll : menampilkan Scroll meskipun Text didalamnya cukup (tidak Over)
