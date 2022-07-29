@@ -1,0 +1,15 @@
+Padding tidak memiliki Nilai AUTO
+dan Padding tidak bisa memiliki Value Negatif
+
+-Padding mempengaruhi Ukuran Box Model jika box 300 x 300
+dan di tambah padding 20px maka 300px + 20px
+
+-Border juga akan menambah ukuran ke Box Model.
+
+Total Dimensi = Widht/Height + Padding + Border
+
+Tetapi ada properti baru pada CSS3 yaitu Box-sizing
+yang berguna untuk kita supaya tidak menghitung ulang lagi
+dimensi.
+
+box-sizing : border-box;
