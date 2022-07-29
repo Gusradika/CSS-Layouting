@@ -9,3 +9,20 @@ akan ter-akumulasi
 
 Key : Mainkan Display:inline / Inline-block / Block(default)
 untuk mendapatkan posisi yang sempurna
+
+Negatif margin membuat menjadi box model overlapping
+Kuncinya jika Positif lawan negatif untuk vertikal maka dia akan menjumlahkan
+tetapi positif dengan positif maka dia tidak akan terakumulasi
+
+Untuk Shorthand
+1 Value = 4 value menjadi 1 nilai sama.
+(margin:50px;)
+
+2 Value = Atas dan Bawah, Kiri dan kanan.
+margin: 50px auto;
+
+3 Value = Atas , Kiri dan Kanan, Bawah;
+Margin: 30px auto 50px;
+
+4 Value = Atas, kanan, bawah , kiri (clockwise)
+Margin : 30px 10px 50px 40px;
