@@ -1,0 +1,13 @@
+Kita dapat menggunakan teknik CSS reset untuk mendapatkan
+kendali penuh akan website kita.
+
+kita dapat menggunakan 
+* {
+    margin : 0;
+    padding : 0;
+}
+
+tetapi menggunakan * (universal) membuat Komputasi menjadi
+lebih berat. maka kita dapat menggunakan Cara oleh
+Erik Meyer. Kita dapat Menggogle Meyer CSS Reset
+dan Copy Paste kode nya ke CSS kita.
