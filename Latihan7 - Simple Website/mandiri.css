@@ -128,22 +128,19 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/* ---------------------------------------------------------------- */
 
-/* =================================================================
-*/
-
-body{
-    font: 16px/28px arial,sans-serif;
+body {
     background-color: #eaeaea;
-    color:#333333;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
+p {
     line-height: 20px;
 }
 
-
-.container{
+.container {
     width: 800px;
     margin: auto;
     background-color: white;
@@ -153,42 +150,56 @@ p{
     padding: 20px;
 }
 
-.header .judul {
+.container .header h1 {
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+.header .nav a {   
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;
+}
+
+.header .nav a:hover {
+    background-color: lightskyblue;
+    color: white;
+    padding: 5px;
 }
 
 .header ul li {
     display: inline-block;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin: 0;
 }
 
-.header a {
-    padding: 5px;
-    text-decoration: none;
-    color: salmon;
-}
+/* Thumbnails */
 
-.header a:hover {
-    background-color: lightskyblue;
-    color: white;
-}
-
-.hero {
-    height: 280px;
+.thumbnail {
+    margin-top: 10px;
+    height: 250px;
     background-image: url(../Resource/cornelius-ventures-Ak81Vc-kCf4-unsplash.jpg);
+    background-position: 0 -25px;
     background-size: cover;
-    background-position: 0 -20px;
     border-top: 5px solid salmon;
     border-bottom: 5px solid lightskyblue;
 }
 
+/* Penulis */
+
+.content .desk .penulis {
+    text-decoration: none;
+    color:salmon;
+}
+
+.content a:hover {
+    background-color: lightskyblue;
+    color:white;
+}
+
+/* Content */
+
 .content {
     padding: 20px;
-    font-size:14px;
-    text-align: justify;
-
 }
 
 .content h2 {
@@ -196,36 +207,30 @@ p{
     font-weight: bold;
 }
 
-.content .penulis {
-    font-size: 11px;
-    margin-top: -5px;
-}
-
-.content .penulis a {
-    color: salmon;
-    text-decoration: none;
-}
-
-.content .penulis a:hover {
-    color:white;
-    background-color: lightskyblue;
+.content .desk {
+    margin-top: 7px;
+    font-size: 12px;
 }
 
 .content p {
-    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 14px;
+    
 }
 
-.footer {
-    background-color: #333333;
+.content  span {
+    background-color: yellow;
 }
+/*Copyright*/
 
-.footer .copy{
-    color: #eaeaea;
+.copy {
+    padding: 14px;
     text-align: center;
-    font-size: 12px;
-    padding: 10px;
+    background-color: #333333;
+    color: #eaeaea;
+    font-size: 13px;
 }
 
 .container {
-    border: 1px solid #333333;
+    border: 1px #333333 solid;
 }
