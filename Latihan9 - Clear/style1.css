@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    overflow: auto;
+}
+
+.container img {
+    float: right;   /* Bisa Left bisa Right */
+    margin: 5px 10px;
+}
+
+.container p{
+    text-align: justify;
+}
+.clear {
+    clear: left;
+}
