@@ -1,0 +1,343 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*  --- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeaea;
+}
+
+
+.header,
+.footer {
+    padding: 20px;
+}
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+    background-color: white;
+
+}
+
+.nav,
+ul li,
+ul li a {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: -5px;
+    text-decoration: none;
+    color: salmon;
+    display: inline-block;
+    padding: 5px;
+}
+
+.nav a:hover {
+    color: white;
+    background-color: lightskyblue;
+
+}
+
+
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.img {
+    height: 250px;
+    background-image: url(../Resource/cornelius-ventures-Ak81Vc-kCf4-unsplash.jpg);
+    background-size: cover;
+    border-bottom: 5px solid lightskyblue;
+    background-position: 0px -20px;
+    margin-top: 10px;
+    border-top: 5px solid salmon;
+}
+
+.artikel {
+    width: 600px;
+    padding: 15px;
+    float: left;
+}
+
+.artikel .penulis {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.artikel a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.artikel a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.penulis span {
+    background-color: yellow;
+}
+
+.artikel p {
+    text-align: justify;
+}
+
+/* Copy Right */
+
+.copyright {
+    padding: 20px;
+    background-color: #333;
+    color: #eaeaea;
+    text-align: center;
+    font-style: italic;
+}
+
+.bar-kanan .atas img {
+    padding: 20px;
+    float: left;
+}
+
+
+
+.bar-kanan .atas .penulis2 {
+    margin-left: 40px;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -1px;
+}
+
+
+.penulis2-status {
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.penulis2-status span {
+    background-color: yellowgreen;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.bar-kanan {
+    width: 270px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.tengah {
+    padding : 10px;
+    margin-top: 40px;
+    width: 270px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(172, 172, 172);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.nav-artikel a {
+    color: lightskyblue;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 28px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.thanks {
+    border-top: 1px dashed #333 ;
+    box-sizing: border-box;
+    padding-top: 10px;
+    width: 245px;
+    
+}
+
+.thanks img {
+    margin: 10px;
+    margin-right: -5px;
+}
+
+.bawah {
+    margin-top: 15px;
+}
+
+.bawah h3 {
+    margin-bottom: 15px;
+}
+
+.bawah p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.bawah span {
+    font-weight: bold;
+    font-style: normal;
+}
+
+span.notelp {
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+}
+
+.headerbawah {
+    width: 600;
+    height: 1000px;
+    background-color: #333;
+}
