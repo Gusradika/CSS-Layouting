@@ -1,0 +1,6 @@
+Static
+
+Relative
+-relative memiliki beberapa properti tambahan yaitu
+
+top, left, right, bottom
