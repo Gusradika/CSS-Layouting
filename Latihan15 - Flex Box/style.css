@@ -86,3 +86,76 @@
 .container .empat {
     order: 3;
 } */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container2 {
+    border : 5px solid red;
+    width : 600px;
+    padding: 20px;
+    margin: 0 5px 100px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.container2 div {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 60px;
+    flex: 1;
+}
+
+div.container2 div.a2 {
+    align-self: flex-start;
+    flex: 3;
+    order: 3;
+}
+
+.a3 {
+    order : 1;
+}
+
+
+div.container3 {
+    border: 5px solid green;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    flex: 1;
+}
+
+.container3 div {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    margin: 5px;
+    
+}
+
+div.container3 div.b1 {
+    flex: 200px;
+}
+
+div.container3 div.b7 {
+    flex: 100px;
+}
