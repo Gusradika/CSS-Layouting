@@ -1,0 +1,88 @@
+/*
+    #####
+    - flex-direction  // Untuk mengatur direction flex boxes
+    {flex-direction: row | row-reverse | column | column-reverse}
+
+    #####
+    - flex-wrap // untuk mengatur jika tidak cukup akan di apakan
+    {flex-wrap : nowrap | wrap | wrap-reverse}
+
+    #####
+    - justify-content // Mengatur align flex boxes secara horizontal
+    {justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly}
+
+    
+    justify-content : valueProperty;
+    flex-start = left to right
+    flex-end = right to left
+    center = center
+    space-between = Spasi di tengah2
+    space-around = spasi di semua sisi
+    space evenly = dibagi dengan rata
+
+    #####
+    align-items // mengatur item secara horizontal
+    {align-items: flex-start | flex-end | center | stretch | baseline}
+    
+    stretch = di tarik secara paksa ke Cross Axis
+    baseline = meratakan menurut letak konten
+
+    ####
+    align-content //  sama seperti align-items cuma hanya berlaku jika kontenya lebihh dari satu baris
+
+    stretch, space-around, space-between
+*/
+
+.container {
+    width: 600px;
+    height: 400px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-direction: row;  // Default*/
+    flex-wrap : wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+    Property untuk Item
+    
+    #####
+    order : [index]
+
+    #### memperbesar
+    flex : [value];
+
+    ####  // satu konten
+    align-self : flex-start | flex-end | stretch | dll.
+*/
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    margin: 20px;
+    color : white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 100px;
+    flex: 1;
+}
+
+.container .satu {
+    flex: 2;
+    align-self: flex-end;
+}
+
+/* .container .satu {
+    order: 2;
+}
+
+.container .empat {
+    order: 3;
+} */
